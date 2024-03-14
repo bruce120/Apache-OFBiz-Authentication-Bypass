@@ -19,5 +19,10 @@ Run command on the remote server:
 python3 exploit.py --url https://localhost:8443 --cmd 'CMD'
 ```
 
+Tty 
+```
+script /dev/null -qc /bin/bash
+```
+
 ## Disclaimer
 This exploit script has been created solely for research and the development of effective defensive techniques. It is not intended to be used for any malicious or unauthorized activities. The script's author and owner disclaim any responsibility or liability for any misuse or damage caused by this software. Just so you know, users are urged to use this software responsibly and only by applicable laws and regulations. Use responsibly.
